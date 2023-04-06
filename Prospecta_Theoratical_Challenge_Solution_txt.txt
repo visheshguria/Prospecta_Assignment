@@ -1,4 +1,4 @@
-1. 	To tackle the challenge above using Java, I would write a program that reads in the CSV file and parses each cell. For each cell, I would check if it contains a formula (i.e., starts with the '=' sign). If it does, I would evaluate the formula and store the result in the cell. If it does not, I would simply store the value        as is.
+1. 	To tackle the challenge above using Java, I would write a program that reads in the CSV file and parses each cell. For each cell, I would check if it contains a formula (i.e., starts with the '=' sign). If it does, I would evaluate the formula and store the result in the cell. If it does not, I would simply store the value as is.
 
 	To evaluate the formulas, I would use a library such as Apache POI in java which deals with the microsoft office documents etc.
 
