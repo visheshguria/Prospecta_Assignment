@@ -1,0 +1,19 @@
+1. To tackle the challenge above using Java, I would write a program that reads in the CSV 	file and parses each cell. For each cell, I would check if it contains a formula (i.e., 	starts with the '=' sign). If it does, I would evaluate the formula and store the result 	in the cell. If it does not, I would simply store the value as is.
+
+	To evaluate the formulas, I would use a library such as Apache POI in java which deals 	with the microsoft office documents etc.
+
+2. 	I will check for the following errors: 
+	
+	** Syntax errors in the formulas.
+	
+	** Circular references (a formula that references itself).
+	
+	** Missing or undefined variables (e.g., a formula that references a cell that has not 	   yet been evaluated).
+
+
+	To avoid errors, I would implement some error handling mechanisms, such as try-catch 	blocks, to catch and handle any errors that may occur during the evaluation process.
+
+3.	A user could potentially break the code by providing invalid input, such as formulas 	with syntax errors, circular references, or missing variables. They could also provide 	input that is not in the correct CSV format, such as having extra columns or rows. To 	prevent these issues, I would need to implement input validation and error handling 	mechanisms to ensure that the input is valid and can be processed correctly. 
+
+
+
